@@ -45,7 +45,7 @@ const Status = ({ route, navigation }) => {
       <StatusBar backgroundColor="black" barStyle="light-content" />
       <View
         style={{
-          marginTop: Platform.OS === 'ios' ? statusBarHeight : 0,
+          marginTop: Platform.OS === 'ios' ? statusBarHeight + 50 : 0,  // iPhone 15
           height: 3,
           width: '100%',
           borderWidth: 1,
